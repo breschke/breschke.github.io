@@ -130,19 +130,10 @@ Part 2: Ember.js
     
     <item>
       <title></title>
-      <link>https://breschke.github.io/presentation/slides/lib/reveal-plugins/notes/notes/</link>
+      <link>https://breschke.github.io/presentation/starburn-aom-08-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://breschke.github.io/presentation/slides/lib/reveal-plugins/notes/notes/</guid>
-      <description>reveal.js - Slide Notes  body { font-family: Helvetica; font-size: 18px; } #current-slide, #upcoming-slide, #speaker-controls { padding: 6px; box-sizing: border-box; -moz-box-sizing: border-box; } #current-slide iframe, #upcoming-slide iframe { width: 100%; height: 100%; border: 1px solid #ddd; } #current-slide .label, #upcoming-slide .label { position: absolute; top: 10px; left: 10px; z-index: 2; } #connection-status { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 20; padding: 30% 20% 20% 20%; font-size: 18px; color: #222; background: #fff; text-align: center; box-sizing: border-box; line-height: 1.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://breschke.github.io/presentation/slides/starburn-aom-2019-08-04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://breschke.github.io/presentation/slides/starburn-aom-2019-08-04/</guid>
+      <guid>https://breschke.github.io/presentation/starburn-aom-08-04/</guid>
       <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
     </item>
     

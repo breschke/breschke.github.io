@@ -133,7 +133,8 @@
   </div>
   <div>
         <article itemprop="articleBody" id="content">
-           <p><p>We are on the hook to submit an abstract to NEC this Friday. I have a call with Joel on Thursday. Tasks take roughly the following priority:</p>
+           <p>We are on the hook to submit an abstract to NEC this Friday. I have a call with Joel on Thursday. Tasks take roughly the following priority:</p>
+
 <ul>
 <li>Percentile rank for various career variables</li>
 <li>Assess degree of left-censoring in career histories</li>
@@ -143,12 +144,8 @@
 <li>Control observation for each star-lit alter</li>
 <li>Brokerage stats</li>
 </ul>
-<p><a href="https://trello.com/b/gyvVQ8Ig/starlight">Trello</a></p>
-<div id="refs" class="references"></p>
 
-<p></div>
-</body>
-</html></p>
+<p><a href="https://trello.com/b/gyvVQ8Ig/starlight">Trello</a></p>
 
         </article>
   </div>
@@ -179,9 +176,9 @@
 
     <div>
         <section id="prev">
-            &nbsp;<a class="previous" href="https://breschke.github.io/plan/starlight-2016-06-06/"><i class="icon-arrow-left"></i> Starlight: June 6-20, 2016</a><br>
+            &nbsp;<a class="previous" href="https://breschke.github.io/note/pricing/"><i class="icon-arrow-left"></i> pricing</a><br>
         </section><section id="next">
-            &nbsp;<a class="next" href="https://breschke.github.io/plan/fds-citizenship-report/">Citizenship Project: Final Report <i class="icon-arrow-right"></i></a>
+            &nbsp;<a class="next" href="https://breschke.github.io/plan/starlight-2016-06-06/">Starlight: June 6-20, 2016 <i class="icon-arrow-right"></i></a>
         </section>
     </div>
 
@@ -244,6 +241,13 @@ MathJax.Hub.Config({
     // https://github.com/mojombo/jekyll/issues/199
     var all = MathJax.Hub.getAllJax(), i;
     for(i = 0; i &lt; all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+</html>
+
+ngth; i += 1) {
         all[i].SourceElement().parentNode.className += ' has-jax';
     }
 });
