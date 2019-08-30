@@ -782,6 +782,11 @@
   </url>
   
   <url>
+    <loc>https://breschke.github.io/presentation/lecture6mod/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://breschke.github.io/presentation/recept-plots1/</loc>
     <priority>0</priority>
   </url>
