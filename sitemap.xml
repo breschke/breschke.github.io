@@ -248,26 +248,6 @@
   </url>
   
   <url>
-    <loc>https://breschke.github.io/presentation/starlight/</loc>
-    <lastmod>2016-08-25T21:42:20-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://breschke.github.io/presentation/starlight/</loc>
-    <lastmod>2016-08-25T21:42:20-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://breschke.github.io/presentation/status-spillovers/</loc>
-    <lastmod>2016-08-25T21:42:20-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://breschke.github.io/tags/totag/</loc>
-    <lastmod>2016-08-25T21:42:20-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://breschke.github.io/idea/entanalytics/</loc>
     <lastmod>2016-08-24T04:52:21-06:00</lastmod>
   </url>
@@ -797,6 +777,11 @@
   </url>
   
   <url>
+    <loc>https://breschke.github.io/presentation/lecture6/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://breschke.github.io/presentation/recept-plots1/</loc>
     <priority>0</priority>
   </url>
@@ -813,11 +798,6 @@
   
   <url>
     <loc>https://breschke.github.io/presentation/slides/starburn-aom-2019-08-04/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://breschke.github.io/presentation/status-spillovers-1-21-23-34-37/</loc>
     <priority>0</priority>
   </url>
   

@@ -230,38 +230,6 @@ Summary Next Directions &amp;lt;#refend&amp;gt;</description>
     </item>
     
     <item>
-      <title>starlight</title>
-      <link>https://breschke.github.io/presentation/starlight/</link>
-      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/presentation/starlight/</guid>
-      <description>name: inverse layout: true class: center, middle, inverse --- # starlight .footnote[Go directly to [project site](https://github.com/gnab/remark)] --- layout: false # Research question ## When an alter is elevated in status, what does ego do? -- ### The question is typically star-centric -- ### Much is said about what happens to high-status actors after ascension - Performance suffers (Bothner, Kim, and Smith 2012) - Personal crises: ‘Oscar Curse’ (Jensen and Kim 2015) --- .</description>
-    </item>
-    
-    <item>
-      <title>starlight</title>
-      <link>https://breschke.github.io/presentation/starlight/</link>
-      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/presentation/starlight/</guid>
-      <description>name: inverse layout: true
-class: center, middle, inverse starlight .footnote[Go directly to project site] layout: false
-Research question When an alter is elevated in status, what does ego do? &amp;ndash;
-The question is typically star-centric &amp;ndash;
-Much is said about what happens to high-status actors after ascension  Performance suffers [@bothkims12] Personal crises: &amp;lsquo;Oscar\ Curse&amp;rsquo; [@jenskim15] .left-column[
-What is it? Why use it? ] .right-column[ If your ideal slideshow creation workflow contains any of the following steps:</description>
-    </item>
-    
-    <item>
-      <title>Status Spillovers</title>
-      <link>https://breschke.github.io/presentation/status-spillovers/</link>
-      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/presentation/status-spillovers/</guid>
-      <description>name: inverse layout: true class: center, middle, inverse --- # Status Spillovers ### Brian P. Reschke .small[(BYU)] ### Pierre Azoulay .small[(MIT)] ### Toby E. Stuart .small[(UC Berkeley)] --- layout: false # Research question --- class: center, middle .small65.paddingBetweenCols[Descriptive Statistics for HHMI Investigators  MeanStd. Dev.MedianMin.Max.   Year of Appointment  1992.331  5.181  1993  1984  2003   Year of Higest Degree   1980.662  7.</description>
-    </item>
-    
-    <item>
       <title>Entrepreneurial Analytics</title>
       <link>https://breschke.github.io/idea/entanalytics/</link>
       <pubDate>Wed, 24 Aug 2016 04:52:21 -0600</pubDate>
@@ -929,6 +897,20 @@ and theta = 1</description>
     
     <item>
       <title></title>
+      <link>https://breschke.github.io/presentation/lecture6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/lecture6/</guid>
+      <description>8470-Lecture-6-emberjs: Slides  Introduction to Ember and handlebars   Secure Web Application Development  Dr. Hale
+University of Nebraska at Omaha
+CYBR 8470 - Lecture 6
+ become a javascript Today: Ember.JS and Handlebars  Part 1: Client-side App Frameworks
+Part 2: Ember.js
+ What is Ember.js? Where does it sit in the server stack? Ember bindings (HEAVEN) Handlebars Syntax Integrating 3rd Party jQuery Libraries Using Ember tools Integrating with a server-side API  Part1: Client-side Apps   Why clientside App Frameworks?</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://breschke.github.io/presentation/recept-plots1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -960,15 +942,6 @@ and theta = 1</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://breschke.github.io/presentation/slides/starburn-aom-2019-08-04/</guid>
-      <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://breschke.github.io/presentation/status-spillovers-1-21-23-34-37/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://breschke.github.io/presentation/status-spillovers-1-21-23-34-37/</guid>
       <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
     </item>
     
