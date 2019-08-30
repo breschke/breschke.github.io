@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>to tag on </title>
+    <link>https://breschke.github.io/tags/to-tag/</link>
+    <description>Recent content in to tag on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 08 Sep 2017 11:40:52 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/to-tag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Howell and Madsen (2017) Extension</title>
+      <link>https://breschke.github.io/note/note2017092511140/</link>
+      <pubDate>Fri, 08 Sep 2017 11:40:52 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/note2017092511140/</guid>
+      <description>What if Taeya and Peter obtained data from the Missionary Department to study variation in missionary mental health and ‘socialization processes’?</description>
+    </item>
+    
+    <item>
+      <title>McCray and Lee, 2013: MeSH Taxonomy</title>
+      <link>https://breschke.github.io/note/mccrlee13/</link>
+      <pubDate>Tue, 31 Jan 2017 12:04:02 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/mccrlee13/</guid>
+      <description>Prep for conversation with Toby and Pierre.
+How often do entry terms that were previously distinct become synonyms? Preferred descriptor has multiple entry terms.
+Descriptors that appear in multiple locations in the hierarchy. Are these granted more exposure?
+Loss of eponyms?
+Persistence of use of eponym?
+
+References</description>
+    </item>
+    
+    <item>
+      <title>Functionalism</title>
+      <link>https://breschke.github.io/note/functionalism/</link>
+      <pubDate>Fri, 23 Sep 2016 09:52:23 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/functionalism/</guid>
+      <description>Introduction Fri, Sep 23, 2016 9:55 - I recently accessed Kieran Healy’s syllabus for his contemporary sociological theory course (see here) and have started an individual study course. The first session is on ‘functionalism and its discontents.’ This seems to be a bridge from courses in ‘classic’ sociological theory:
+ Last semester, you followed the more or less conventional sequence of “classical” socio- logical theorists through the long nineteenth century. You ended a generation later with Talcott Parsons’s effort to unify these thinkers into some sort of research program.</description>
+    </item>
+    
+    <item>
+      <title>pricing</title>
+      <link>https://breschke.github.io/note/pricing/</link>
+      <pubDate>Thu, 28 Apr 2016 21:52:46 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/pricing/</guid>
+      <description>Questions STEP 6: After testing the price, how know you are getting the ‘expected quantities and revenues’?
+
+References</description>
+    </item>
+    
+    <item>
+      <title>teaching principles</title>
+      <link>https://breschke.github.io/plan/teaching-principles/</link>
+      <pubDate>Wed, 06 Apr 2016 07:38:22 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/plan/teaching-principles/</guid>
+      <description>(2 Nephi 25:4) - “for behold, my soul delighteth in plainness unto my people, that they may learn.” Prepare so that instruction can be plain and not mysterious and convoluted.  2 Nephi. The Book of Mormon: Another Testament of Jesus Christ. https://www.lds.org/scriptures/bofm/2-ne/1?lang=eng.</description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://breschke.github.io/note/1workflow/</link>
+      <pubDate>Tue, 22 Mar 2016 09:37:55 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/1workflow/</guid>
+      <description>Website Wish List  Link to file that opens source .md in Atom  Tue, Mar 22, 2016 9:38
+Scripture citations  Multiple references per pair of parentheses Bundle reference section entries by book (e.g, Holy Bible)  - Multiple references per line
+Citations (Done) I’m interested in creating HTML pages of my markdown files. There may be a way to use Scratch to get easy in-line citations. Otherwise, I will likely need to create a Makefile that will output markdown files that contain the TOML at the top and the HTML on the bottom.</description>
+    </item>
+    
+    <item>
+      <title>Federalist No. 2</title>
+      <link>https://breschke.github.io/note/federalist-2/</link>
+      <pubDate>Tue, 08 Mar 2016 12:19:37 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/note/federalist-2/</guid>
+      <description>Summary The first matter for Hamilton, Jay, and Madison to establish is the need for a united federal government instead of a series of separate state nations or three or four confederacies. This paper appeals to the people’s notion that Providence has given them this land—essentially, ‘God gave it to us as one land, therefore it should remain one land’, or at least, ‘this land has natural features that suggest unity (oceans) over division’.</description>
+    </item>
+    
+    <item>
+      <title>Federalist No. 2</title>
+      <link>https://breschke.github.io/note/federalist-2/</link>
+      <pubDate>Tue, 08 Mar 2016 12:19:37 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/note/federalist-2/</guid>
+      <description>Summary The first matter for Hamilton, Jay, and Madison to establish is the need for a united federal government instead of a series of separate state nations or three or four confederacies. This paper appeals to the people&#39;s notion that Providence has given them this land---essentially, &#39;God gave it to us as one land, therefore it should remain one land&#39;, or at least, &#39;this land has natural features that suggest unity (oceans) over division&#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

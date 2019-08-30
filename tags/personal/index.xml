@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on </title>
+    <link>https://breschke.github.io/tags/personal/</link>
+    <description>Recent content in personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 29 Dec 2015 17:02:41 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>grading pitches</title>
+      <link>https://breschke.github.io/plan/grading-pitches/</link>
+      <pubDate>Tue, 29 Dec 2015 17:02:41 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/grading-pitches/</guid>
+      <description>Considerations  Create a rubric and stick to 5% breaks in scores. Range from 80 to 100, possibly using 80 in exceptional cases only. The distribution should be similar to the final grade distribution.</description>
+    </item>
+    
+    <item>
+      <title>grading pitches</title>
+      <link>https://breschke.github.io/plan/grading-pitches/</link>
+      <pubDate>Tue, 29 Dec 2015 17:02:41 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/grading-pitches/</guid>
+      <description>Considerations  Create a rubric and stick to 5% breaks in scores. Range from 80 to 100, possibly using 80 in exceptional cases only. The distribution should be similar to the final grade distribution.  </description>
+    </item>
+    
+  </channel>
+</rss>

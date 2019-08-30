@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>final pitch on </title>
+    <link>https://breschke.github.io/tags/final-pitch/</link>
+    <description>Recent content in final pitch on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 28 Dec 2015 12:54:51 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/final-pitch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final Pitch Format</title>
+      <link>https://breschke.github.io/plan/final-pitch-format/</link>
+      <pubDate>Mon, 28 Dec 2015 12:54:51 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/final-pitch-format/</guid>
+      <description> I need them to assume that none of us have seen the pitch before. This will push them to emphasize how the pain exists, is deep, and worth solving.
+   </description>
+    </item>
+    
+    <item>
+      <title>Final Pitch Format</title>
+      <link>https://breschke.github.io/plan/final-pitch-format/</link>
+      <pubDate>Mon, 28 Dec 2015 12:54:51 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/final-pitch-format/</guid>
+      <description>I need them to assume that none of us have seen the pitch before. This will push them to emphasize how the pain exists, is deep, and worth solving.</description>
+    </item>
+    
+  </channel>
+</rss>

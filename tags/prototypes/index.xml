@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prototypes on </title>
+    <link>https://breschke.github.io/tags/prototypes/</link>
+    <description>Recent content in prototypes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 28 Dec 2015 11:14:52 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/prototypes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use of Prototypes</title>
+      <link>https://breschke.github.io/plan/prototypes/</link>
+      <pubDate>Mon, 28 Dec 2015 11:14:52 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/prototypes/</guid>
+      <description> It seems we need to spend more time on how to use prototypes in validation. Getting feedback, good and bad, is crucial to this process. Seeing that we can build it is only part of the prototyping process.
+Questions  How can prototypes best elicit customer feedback?     </description>
+    </item>
+    
+    <item>
+      <title>Use of Prototypes</title>
+      <link>https://breschke.github.io/plan/prototypes/</link>
+      <pubDate>Mon, 28 Dec 2015 11:14:52 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/plan/prototypes/</guid>
+      <description> It seems we need to spend more time on how to use prototypes in validation. Getting feedback, good and bad, is crucial to this process. Seeing that we can build it is only part of the prototyping process.
+Questions  How can prototypes best elicit customer feedback?  </description>
+    </item>
+    
+  </channel>
+</rss>

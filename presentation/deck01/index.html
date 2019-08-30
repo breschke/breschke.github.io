@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>R&R</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/black-custom.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+          <link rel="stylesheet" href="./css/custom.css">
+
+		<script>
+		  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+		  ':35729/livereload.js?snipver=1"></' + 'script>')
+		</script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
+
+
+
+# R&R
+### Innovation and Entrepreneurship
+
+### MBA 670
+
+Marriott School of Business
+
+Brian P. Reschke
+
+Fall 2017
+</script></section><section  data-markdown><script type="text/template">
+## A perspective on entrepreneurship
+
+> <div style="text-align: left"> Entrepreneurship is the relentless pursuit of opportunity without regard to resources currently controlled.
+
+> <div style="text-align: right"> &mdash;Howard Stevenson</div>
+</script></section><section  data-markdown><script type="text/template">
+## R&R Case
+
+
+* Application of Porter's Five Forces
+* Illustration of 'Industry Immersion' approach to entrepreneurship
+
+<p/>
+
+<ul style="list-style: none; font-size: 20px; margin: 0;"><li style="margin: 5px 0;"><lo_n>Learning Outcome:</lo_n> Understand customers and competitive contexts</li></ul>
+</script></section><section  data-markdown><script type="text/template">
+## R&R Case
+
+> <div style="text-align: left">"My idea of entrepreneurship is for you to bear the risk and for me to get the reward."</div>
+> <div style="text-align: right"> &mdash;Unknown</div>
+
+### Five Questions to Consider
+
+1. Is it an opportunity?
+2. What resources are required?
+3. Where do we acquire the resources?
+4. How do we manage the operation?
+5. How do we capture value?
+</script></section><section  data-markdown><script type="text/template">
+## R&R Case
+
+|*Task*|*Incumbent*|*R&R*|
+|---|---|---|
+|Market Research|Surveys; focus groups; internal committees|Friends; reps; buyers; network|
+|Development|Internal|Outsourced|
+|Manufacturing|In-house|Subcontract|
+|Promotion|Ad campaigns|Beg and borrow|
+</script></section><section  data-markdown><script type="text/template">
+## Some Key Distinctions
+
+### Customer vs. User
+
+### Product vs. Business
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+            
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+            
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              slideNumber: true,
+              logo: true,
+              transition: 'default', 
+              dependencies: deps
+            };
+            
+            var queryOptions = Reveal.getQueryHash() || {};
+            var options = {"transition":"slide"};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>

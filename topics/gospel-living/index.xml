@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gospel Living on </title>
+    <link>https://breschke.github.io/topics/gospel-living/</link>
+    <description>Recent content in Gospel Living on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Mar 2016 09:37:55 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/topics/gospel-living/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://breschke.github.io/note/1workflow/</link>
+      <pubDate>Tue, 22 Mar 2016 09:37:55 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/1workflow/</guid>
+      <description>Website Wish List  Link to file that opens source .md in Atom  Tue, Mar 22, 2016 9:38
+Scripture citations  Multiple references per pair of parentheses Bundle reference section entries by book (e.g, Holy Bible)  - Multiple references per line
+Citations (Done) I’m interested in creating HTML pages of my markdown files. There may be a way to use Scratch to get easy in-line citations. Otherwise, I will likely need to create a Makefile that will output markdown files that contain the TOML at the top and the HTML on the bottom.</description>
+    </item>
+    
+  </channel>
+</rss>

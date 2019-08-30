@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on </title>
+    <link>https://breschke.github.io/topics/statistics/</link>
+    <description>Recent content in Statistics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 18 Dec 2015 13:14:07 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/topics/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prior Distributions</title>
+      <link>https://breschke.github.io/note/priors/</link>
+      <pubDate>Fri, 18 Dec 2015 13:14:07 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/note/priors/</guid>
+      <description>Example:
+Let (theta) theta denote the probability of obtaining a head in a coin toss, and assume it is known the coin is either fair (has a head side and a tail side, and each is expected to be observed with similar frequency over many, many trials) or unfair in that it has a head on each side. The possible values of theta
+are theta = 1/2
+and theta = 1</description>
+    </item>
+    
+  </channel>
+</rss>

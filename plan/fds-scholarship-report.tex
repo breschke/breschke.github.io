@@ -1,0 +1,437 @@
+\documentclass[11pt,article,oneside]{memoir}
+%BPR Tue, Dec 22, 2015 12:32: Crucially, this revised template uses article-5
+% instead of article-4. I made article-5 to enable hyperlinks.
+
+%% I prefer to see what I'm importing:
+% \usepackage{org-preamble-xelatex}
+%% Preamble/settings for documents exported from .org files to .tex files when the
+%% tex engine is xelatex.
+%%
+%% Usage: \usepackage{org-preamble-xelatex} in your document
+%% preamble. Font choice should be set in the document after the
+%% package is declared. If \usepackage[minted]{org-preamble-xelatex}
+%% is given, the minted package for code highlighting is turned
+%% on. Minted requires that pygments be installed
+%% (http://pygments.org/) and that \write18 support be enabled in your
+%% tex compiler.
+
+%% Kieran Healy
+%%
+\usepackage{endnotes}
+
+\usepackage{varwidth}
+\usepackage[T1]{fontenc}
+% Fri, Sep 23, 2016 12:10:
+% \catcode`\_=12
+
+\setcounter{tocdepth}{4}
+
+% \def\replace#1#2#3{%
+%  \def\tmp##1#2{##1#3\tmp}%
+%    \tmp#1\stopreplace#2\stopreplace}
+% \def\stopreplace#1\stopreplace{}
+% \usepackage{xstring}
+\usepackage{xparse}
+
+\ExplSyntaxOn
+\NewDocumentCommand{\myreplace}{m}
+ {
+  \tl_set:Nn \l__maxd_argument_tl { #1 }
+  \tl_replace_all:Nnn \l__maxd_argument_tl { _ } { . }
+  \tl_use:N \l__maxd_argument_tl
+ }
+\tl_new:N \l__maxd_argument_tl
+\ExplSyntaxOff
+
+%Wed, Feb 10, 2016 10:32:
+\usepackage[multidot]{grffile}
+
+%Wed, Feb 10, 2016 10:32:
+\newcommand{\bprspecialcell}[3][c]{%
+  \begin{tabular}[#1]{@{}#2@{}}#3\end{tabular}}%
+
+\usepackage{etoolbox}
+\usepackage{listings}
+%Added Tue, Jan 12, 2016 10:39
+\usepackage{float}
+
+%%Fri, Jan 8, 2016 10:54 Stata highlighting:
+\usepackage{accsupp}% http://ctan.org/pkg/accsupp
+\newcommand{\emptyaccsupp}[1]{\BeginAccSupp{ActualText={}}#1\EndAccSupp{}}
+
+% langugae defination
+\lstdefinelanguage{Stata}{
+    % Left for users to add missing commands,
+    % with possibility of choosing different style.
+    morekeywords=,
+    % Popular add-on commands
+    morekeywords=[2]{cntrade, chinafin,
+                     wbopendata, spmap,
+    },
+    % System commands
+    morekeywords=[3]{regress, summarize,
+                     display,
+    },
+    % Keywords
+    morekeywords=[4]{forvalues, if, foreach, set, for, keep, drop, import, gen, egen, save, use, merge, rename, capture, rename, cd, capture, version, pause, on, program},
+    % Built-in functions
+    morekeywords=[5]{rnormal, runiform},
+    morecomment=[l]{//},
+    % morecomment=[l]{*},  // `*` maybe used as multiply operator. So use `//` as line comment.
+    morecomment=[s]{/*}{*/},
+    morecomment=[s]{*}{;},
+    % morecomment=[s]{,}{//},
+    % The following is used by macros, like `lags'.
+    morecomment=[n][keywordstyle9]{`}{'},
+    morestring=[b]",
+    sensitive=true,
+}
+
+\lstdefinestyle{numbers}{
+    numbers=left,
+    stepnumber=1,
+    numberstyle=\tiny\emptyaccsupp,
+    xleftmargin=2em,
+}
+
+\lstdefinestyle{nonumbers}{
+    numbers=none,
+}
+
+\lstdefinestyle{stata-plain}{
+    % comment slanted and keywords bolded.
+    language=Stata,
+    basicstyle=\setmonofont{Consolas}\footnotesize\ttfamily,
+}
+
+\lstdefinestyle{stata-editor}{
+    language=Stata,
+    % size of the fonts for the code
+    basicstyle=\setmonofont{Consolas}\footnotesize\ttfamily,
+    % Color settings to match do-file editor style
+    % Commands that are not included in the defination
+    keywordstyle={\color{NavyBlue}},
+    % Popular add-on commands
+    keywordstyle=[2]{\color{NavyBlue}},
+    % System commands
+    keywordstyle=[3]{\color{NavyBlue}},
+    % Keywords
+    keywordstyle=[4]{\color{NavyBlue}},
+    % Built-in functions like rnormal
+    keywordstyle=[5]{\color{Blue}},
+    % Used by macros, i.e. `lags'
+    keywordstyle=[9]{\color{TealBlue}},
+    stringstyle=\color{Maroon},
+    commentstyle=\color{OliveGreen},
+}
+
+
+\lstset{
+    language=Stata,
+    style=stata-plain,
+    % style=stata-editor,
+    style=numbers,
+    showstringspaces=false,
+    breaklines,
+    frame=single,
+    % To add missing commands
+    % morekeywords={xtreg, xtunitroot},
+}
+
+\newtoggle{rough}
+\toggletrue{rough}
+
+\newtoggle{draft}
+\toggletrue{draft}
+\togglefalse{draft}
+
+\newtoggle{defcap}
+\togglefalse{defcap}
+
+\newtoggle{defnote}
+\toggletrue{defnote}
+
+\newtoggle{defwidth}
+\toggletrue{defwidth}
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{org-preamble-xelatex}[2011/02/21 v0.01 Bundling of Preamble items for Org to XeLaTeX export]
+
+\RequirePackage{ifthen}
+\newboolean{@minted} %
+
+\setboolean{@minted}{false} % minted is off by default
+
+\DeclareOption{minted}{
+  \setboolean{@minted}{true}
+}
+
+\ProcessOptions
+
+% Place below instead: Thu, Jan 7, 2016 3:17
+% \RequirePackage{fontspec}
+% \RequirePackage{xunicode}
+
+\RequirePackage{url}
+\RequirePackage{rotating}
+\RequirePackage{memoir-article-styles}
+\RequirePackage[american]{babel}
+\RequirePackage[babel]{csquotes}
+\RequirePackage[svgnames]{xcolor}
+\RequirePackage{soul}
+% \RequirePackage[xetex, colorlinks=true, urlcolor=DarkSlateBlue,
+% citecolor=DarkSlateBlue, filecolor=DarkSlateBlue, plainpages=false,
+% pdfpagelabels, bookmarksnumbered]{hyperref}
+\RequirePackage[usenames,dvipsnames]{color}
+
+% Incldued earlier:
+% \RequirePackage{etoolbox}
+
+%% Biblatex
+% Modified Tue, Jan 12, 2016 10:25:
+\usepackage[authordate,abbreviate=true,backend=biber,natbib]{biblatex-chicago}
+% \RequirePackage[authordate, backend=biber, babel=hyphen, bibencoding=inputenc, strict, isbn=false, uniquename=false]{biblatex-chicago} % biblatex setup
+
+% \RequirePackage[style=authoryear,
+%             bibstyle=authoryear,
+%             citestyle=authoryear,
+%             %natbib=true,
+%             hyperref=true,
+%             backend=biber, babel=hyphen, bibencoding=inputenc]{biblatex}
+
+%% Fix biblatex's odd preference for using In: by default.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{}\intitlepunct}}}
+
+%% Basic bibliography
+\addbibresource{/Users/brianreschke/Dropbox/bpr/Dissertation/bib/current.bib}
+% \addbibresource{/Users/kjhealy/Documents/bibs/socbib.bib}
+% \addbibresource{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib}
+
+%   %% these tweak the biblatex-chicago format to conform to AJS style.
+   \DeclareFieldFormat[article]{title}{\mkbibquote{#1}}
+   \DeclareFieldFormat[book]{title}{%
+   \mkbibemph{#1}\isdot} % for books
+\DeclareFieldFormat{booktitle}{\mkbibemph{#1}} % for edited volumes
+
+%% bibnamedash: with Minion Pro the three-emdash lines in the
+%% bibliogrpaphy end up separated from one another, which is very
+%% annoying. Replace them with a line of appropriate size and weight.
+%%\renewcommand{\bibnamedash}{\rule[3.5pt]{3em}{0.5pt}}
+
+%% Pagestyle
+\pagestyle{kjh}
+
+%% If [minted] option is chosen, activate minted
+\ifthenelse{\boolean{@minted}}{
+  \RequirePackage{minted}
+  \usemintedstyle{tango}
+  \definecolor{bg}{rgb}{0.95,0.95,0.95}
+  \setkeys{Gin}{width=1\@textwidth}
+}{}
+
+%\input{vc}
+%\usepackage{inconsolata}
+
+
+
+% Fri, Jan 8, 2016 10:27:
+% 
+% Added Tue, Jan 5, 2016 3:23:
+\usepackage{caption}
+\newcommand\fnote[1]{\captionsetup{font=scriptsize,justification=raggedright}\caption*{#1}}
+\captionsetup{skip=0pt}
+\newcommand\flnote[1]{\captionsetup{font=normalsize,justification=raggedright}\caption*{#1}}
+% Thu, Sep 22, 2016 10:48 removed to allow for wider margins:
+% \usepackage{geometry}
+\usepackage[normalem]{ulem}
+\usepackage[font=scriptsize]{subcaption}
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+
+
+
+
+
+% \title{\bigskip \bigskip Scholarship Strategies Project: Final Report}
+% \title{\bigskip \bigskip Scholarship Strategies Project: Final Report}
+\def\mytitle{\LARGE Scholarship Strategies Project: Final Report}
+
+%\author{true}
+
+% \author{\Large Brian P. Reschke\vspace{0.05in} \newline\normalsize\emph{Department of Organizational Leadership and Strategy} \newline\footnotesize \url{brianreschke@byu.edu}\vspace*{0.2in}\newline }
+\author{\Large Brian P. Reschke\vspace{0.05in} \newline\normalsize\emph{Department of Organizational Leadership and Strategy} \newline\footnotesize \protect\url{brianreschke@byu.edu}\vspace*{0.2in}\newline }
+
+%\author{Brian P. Reschke (Department of Organizational Leadership and Strategy)}
+
+\date{}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+%BPR Tue, Dec 22, 2015 1:43: To specify font for section headings
+\usepackage{titlesec}
+\RequirePackage[xetex,
+	colorlinks=true,
+	urlcolor=DarkSlateBlue, % external links
+        citecolor=DarkSlateBlue, % citations (setting affects links set by biber only, not pandoc-citeproc
+        filecolor=DarkSlateBlue, % local files (Doesn't modify links: Tue, Dec 22, 2015 1:13)
+        linkcolor=DarkSlateBlue, % local files
+	plainpages=false,
+  	pdfpagelabels,
+  	bookmarksnumbered
+    % hidelinks
+  	]{hyperref}
+
+\RequirePackage[all]{hypcap}
+
+\newfontfamily\crimsonfont[Mapping=tex-text]{Crimson Text}
+
+\newenvironment{cftabular}{\crimsonfont\tabular}{\endtabular}
+\newenvironment{cflongtable}{\crimsonfont\longtable}{\endlongtable}
+
+\begin{document}
+\setkeys{Gin}{width=1\textwidth}
+%% Crimson Text verion (before Tue, Aug 23, 2016 4:34)
+% \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Crimson Text}
+% \setsansfont[Mapping=tex-text]{Crimson Text}
+% \setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata}
+
+% \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro}
+% \setsansfont[Mapping=tex-text]{Minion Pro}
+% \setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata}
+
+\setmainfont{Minion Pro}[Mapping=tex-text,SmallCapsFeatures={LetterSpace=7},Numbers=OldStyle]
+\setsansfont[Mapping=tex-text]{Minion Pro}
+\setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata}
+% \titleformat*{\section}{\Large\fontfamily{lmr}\selectfont\scshape\MakeLowercase}
+\chapterstyle{article-7}
+\pagestyle{kjh}
+% Did this to avoid numbered chapters Thu, Jan 7, 2016 12:28:
+\setcounter{secnumdepth}{-1}
+
+\published{March 20, 2016.}
+
+\title{\mytitle}
+\maketitle
+
+
+
+\begin{abstract}
+
+\noindent The following report evaluates my progress towards goals for scholarly
+development through February 2017.
+
+\end{abstract}
+
+
+\section{Goal Progress}\label{goal-progress}
+
+In the course of the Faculty Development Series, I set three goals for
+my scholarly development through the beginning of the Winter 2017
+semester. As I review my progress towards each goal below, I identify
+ways that applied the scholarly strategies identified in my Faculty
+Development Plan. I also identify new insights gleaned from the
+experience of reviewing my progress, and I articulate plans for future
+productivity.
+
+\subsection{\texorpdfstring{Goal: Submit a revised manuscript in
+response to a \enquote{revise and resubmit}
+decision}{Goal: Submit a revised manuscript in response to a revise and resubmit decision}}\label{goal-submit-a-revised-manuscript-in-response-to-a-revise-and-resubmit-decision}
+
+I am pleased to report that I met the goal of successfully returning my
+paper under first-round review at \emph{Administrative Science
+Quarterly} to the reviewers. This proved more challenging than
+anticipated, especially as a major coauthor encountered some unexpected
+obstacles in the final stages of the revision. To work around this
+challenge, I proceeded to revise a section formerly allocated to this
+coauthor. This ultimately resulted in a new theoretical framework that
+outgrew the original article---I have since incorporated a revision of
+this framework in an invited article for \emph{Journal of Management
+Inquiry}. This experience taught me the value of continuing to write,
+even when there are available excuses to forestall writing. Even if not
+incorporated in the intended piece, it may suggest paths for future
+research. This insight came in the process of preparing this report: I
+would like to apply this principle to early-stage projects that I have
+delayed \enquote{writing up} because the research design is still in
+flux.
+
+\subsection{Goal: Submit two additional manuscripts for
+publication}\label{goal-submit-two-additional-manuscripts-for-publication}
+
+As mentioned, I submitted the first round of a manuscript to the
+\emph{Journal of Management Inquiry} early this year. The article is
+part of an invited series that may involve dialogue with other series
+participants. Thus, I anticipate writing extensions to this manuscript
+in the coming months. This experience will help establish my research
+identity in the status literature. Unfortunately, I did not submit an
+additional manuscript per my goals. However, the goal did help me spend
+more time revising a past manuscript than I would have otherwise.
+Particularly, per my (citizenship) strategy to engage more with my
+colleagues, I workshopped this paper with members of my department
+writing circle. Though the feedback was about the front end of the
+paper---a section I highly anticipate revising as I get closer to
+submission---soliciting feedback on this section helped me consider the
+overall contribution of the paper. This made me realize that the
+activities dominating my time on this revision (new analyses) were
+probably outside the scope of this project, and that I would be better
+served by completing the paper with the results I have in
+hand---extending the analyses later as directed by reviewers.
+
+I have learned from this experience that I still tend towards
+\enquote{perfect drafts} at the expense of number of submissions.
+Accordingly, I have revised my Faculty Development Plan to highlight the
+principle of \enquote{Always under Review} and \enquote{Furtherest
+along, First Out}, or FAFO. This was an insight stemming from a visit
+with my faculty mentor. Particularly, this means that I would like to
+have at least one paper under review at any given time. When I do not
+have a paper under review, I will prioritize the project closest to
+submission until I again have a paper under review (FAFO). This
+discipline will help me appropriately evaluate whether I can take on new
+projects.
+
+One of the strategies I had identified in connection to this goal was to
+write to schedule daily for at least 30 minutes. I observe that I do
+much better at keeping with this program when I know there is a pending
+opportunity to share my writing with others. Presently, this has been
+around the time of submissions to conferences or journals, but I would
+like to create many more \enquote{intermediate} writing exhibition
+experiences for myself. Accordingly, I have revised my Faculty
+Development Plan to recognize this principle of always having a writing
+exhibition deadline in mind (whether a submission, conference, talk, or
+draft exchange). I have resumed participation in the department writing
+circle. This has helped my daily writing improve, though I see that the
+size of the group limits the frequency in which I can solicit feedback.
+My mentor and I have agreed to hold our own writing circle weekly moving
+forward. This should provide more frequent accountability. I am excited
+about the implications of these plans for my future productivity.
+
+\subsection{Goal: Submit two new, early-stage manuscripts for exhibition
+at major
+conferences}\label{goal-submit-two-new-early-stage-manuscripts-for-exhibition-at-major-conferences}
+
+Pursuant to my goal to \enquote{feed my pipeline}, I submitted an rough
+manuscript reporting early results to the Annual Meeting of the Academy
+of Management. The plan had been to submit a second project as well, but
+the intended coauthors and I were occupied with the manuscript that
+received the revise and resubmit described above. I see that timeliness
+in turning around papers after editor decisions is not only important
+for the focal paper, but also for fueling future research. I think the
+above principle of striving to always have a work under review will
+actually help me in identifying and developing new projects.
+
+While I only partially met this goal, the manuscript I did submit was
+part of a symposium I organized around a research topic related to my
+future research stream. I identified participants through contacts I
+made at a small conference at INSEAD, Fontainebleu, France. This last
+week, I learned that the symposium was accepted by all three Academy
+divisions from which I sought sponsorship; I am very hopeful about the
+new collaborators that may come from participants and attendees of this
+session. I also hope this session helps me take a more proactive role in
+shaping a research conversation.
+
+\hypertarget{refs}{}
+
+
+\end{document}

@@ -1,0 +1,243 @@
+<#define img|<img src='#1' width='300'>>
+
+<#define filename|`#1`>
+<#ifdef HTML>
+     <#define filename|<code class="filename">#1</code>>
+<#endif>
+<#ifdef TEX>
+     <#define filename|\\texttt{#1}>
+<#endif>
+
+<#define bodyhere|<#defeval tmp|<\#include <#CURRENT>>><#tmp>>
+
+<#define tab|Table \\ref{tab:#1}>
+<#define tabhere|\\begin{center} \
+[Insert Table \\ref{tab:#1} about here]\
+\\end{center} \
+>
+
+<#define fig|Figure \\ref{fig:#1}>
+<#define fighere|\\begin{center} \
+[Insert Figure \\ref{fig:#1} about here]\
+\\end{center} \
+>
+
+<#define v|\\vspace{5mm}>
+
+<#define <#table filename|caption|footnote|position>|
+<#ifeq <#caption>|>
+<#defeval switch|\\\\toggletrue{defcap}><#else><#defeval switch|\\\\togglefalse{defcap}><#endif>
+<#ifeq <#footnote>|>
+<#defeval fswitch|\\\\toggletrue{defnote}><#else><#defeval fswitch|\\\\togglefalse{defnote}><#endif>
+<#ifeq <#position>|>
+<#defeval tmppos|htbp><#else><#defeval tmppos|<#position>><#endif>
+\\begin{table}[<#tmppos>]\\centering \
+\\captionsetup{justification=centering} \
+<#switch> \
+<#fswitch> \
+\\newcommand{\\tabtitle}{\\iftoggle{defcap}{\\defcap}{<#caption>}} \
+\\newcommand{\\repnote}{\\iftoggle{defnote}{\\defnote}{<#footnote>}} \
+\
+\\input{<#filename>} \
+\\end{table} \
+\\let\\tabtitle\\undefined \
+\\let\\repnote\\undefined \
+\\toggletrue{defcap}>
+
+<#define <#fg graphic|caption|footnote|width|label|position|lof>|
+<#ifeq <#caption>|>
+<#defeval tmpcap|\\\\detokenize{<#graphic>}><#ifeq <#lof>|>
+<#defeval tmplof|\\\\<#tmpcap>><#else><#defeval tmplof|<#lof>><#endif><#else><#defeval tmpcap|<#caption>><#ifeq <#lof>|>
+<#defeval tmplof|<#tmpcap>><#else><#defeval tmplof|<#lof>><#endif><#endif>
+<#ifeq <#footnote>|>
+<#defeval tmpfn|><#else><#defeval tmpfn|<#footnote>><#endif>
+<#ifeq <#width>|>
+<#defeval tmpwidth|4.5in><#else><#defeval tmpwidth|<#width>><#endif>
+<#ifeq <#position>|>
+<#defeval tmppos|h><#else><#defeval tmppos|<#position>><#endif>
+<#ifeq <#label>|>
+<#defeval tmplab|<#graphic>><#else><#defeval tmplab|<#label>><#endif>
+\\begin{figure}[<#tmppos>] \
+\\centering \
+\\captionsetup{justification=centering}
+\\caption[<#tmplof>]{<#tmpcap>} \
+\\label{fig:<#tmplab>}
+\\includegraphics[width=<#tmpwidth>]{<#graphic>}% \
+\\vspace{10pt}
+\\fnote{<#tmpfn>} \
+\\end{figure}>
+
+<#define <#twofigure graphic1|graphic2|caption1|caption2|footnote1|footnote2|width1|width2|lof1|lof2|label1|label2>|
+<#ifeq <#caption1>|>
+<#defeval tmpcap1|\\\\detokenize{<#graphic1>}><#else><#defeval tmpcap1|<#caption1>><#endif>
+<#ifeq <#footnote1>|>
+<#defeval tmpcap2|\\\\detokenize{<#graphic2>}><#else><#defeval tmpcap2|<#caption2>><#endif>
+<#ifeq <#footnote1>|>
+<#defeval tmpfn1|><#else><#defeval tmpfn1|<#footnote1>><#endif>
+<#ifeq <#width1>|>
+<#defeval tmpwidth1|4.5in><#else><#defeval tmpwidth1|<#width1>><#endif>
+<#ifeq <#lof1>|>
+<#defeval tmplof1|\\\\<#tmpcap1>><#else><#defeval tmplof1|<#lof1>><#endif>
+<#ifeq <#lof2>|>
+<#defeval tmplof2|\\\\<#tmpcap2>><#else><#defeval tmplof2|<#lof2>><#endif>
+<#ifeq <#label1>|>
+<#defeval tmplab1|<#graphic1>><#else><#defeval tmplab1|<#label1>><#endif>
+<#ifeq <#caption2>|>
+<#defeval tmpcap2|\\\\detokenize{<#graphic2>}><#else><#defeval tmpcap2|<#caption2>><#endif>
+<#ifeq <#footnote2>|>
+<#defeval tmpfn2|><#else><#defeval tmpfn2|<#footnote2>><#endif>
+<#ifeq <#width2>|>
+<#defeval tmpwidth2|4.5in><#else><#defeval tmpwidth2|<#width2>><#endif>
+<#ifeq <#label2>|>
+<#defeval tmplab2|<#graphic2>><#else><#defeval tmplab2|<#label2>><#endif>
+\\begin{figure}[h] \
+\\centering \
+\\captionsetup{justification=centering}
+\\caption{<#tmpcap1>} \
+\\label{fig:<#tmplab1>}
+\\includegraphics[width=<#tmpwidth1>]{<#graphic1>}% \
+\\vspace{10pt}
+\\fnote{<#tmpfn1>} \
+\\vspace{20pt}
+\\captionsetup{justification=centering,font=normalsize} \
+\\caption{<#tmpcap2>} \
+\\includegraphics[width=<#tmpwidth2>]{<#graphic2>}% \
+\\vspace{10pt}
+\\fnote{<#tmpfn2>} \
+\\label{fig:<#tmplab2>} \
+\\end{figure}>
+
+<#define <#sbox graphic1|graphic2|caption|footnote|width|label|position|lof|cap1|cap2|lab1|lab2>|
+<#ifeq <#caption>|>
+<#defeval tmpcap|\\\\detokenize{<#graphic1> and <#graphic2> }><#ifeq <#lof>|>
+<#defeval tmplof|\\\\<#tmpcap>><#else><#defeval tmplof|<#lof>><#endif><#else><#defeval tmpcap|<#caption><#ifeq <#lof>|>
+<#defeval tmplof|<#tmpcap>><#else><#defeval tmplof|<#lof>><#endif>><#endif>
+<#ifeq <#footnote>|>
+<#defeval tmpfn|><#else><#defeval tmpfn|<#footnote>><#endif>
+<#ifeq <#width>|>
+<#defeval tmpwidth|2.5in><#else><#defeval tmpwidth|<#width>><#endif>
+<#ifeq <#label>|>
+<#defeval tmplab|<#graphic1><#graphic2>><#else><#defeval tmplab|<#label>><#endif>
+<#ifeq <#position>|>
+<#defeval tmppos|h><#else><#defeval tmppos|<#position>><#endif>
+<#ifeq <#cap1>|>
+<#defeval tmpcap1|\\\\detokenize{<#graphic1>}><#else><#defeval tmpcap1|<#cap1>><#endif>
+<#ifeq <#cap2>|>
+<#defeval tmpcap2|\\\\detokenize{<#graphic2>}><#else><#defeval tmpcap2|<#cap2>><#endif>
+<#ifeq <#lab1>|>
+<#defeval tmplab1|<#graphic1>><#else><#defeval tmplab1|<#lab1>><#endif>
+<#ifeq <#lab2>|>
+<#defeval tmplab2|<#graphic2>><#else><#defeval tmplab2|<#lab2>><#endif>
+\\begin{figure}[<#tmppos>] \
+\\centering \
+\\captionsetup{justification=centering} \
+\\captionsetup[subfigure]{position=b} \
+\\caption[<#tmplof>]{<#tmpcap>} \
+\\label{fig:<#tmplab>} \
+\\subcaptionbox{<#tmpcap1>\\label{fig:<#tmplab1>}}{\\includegraphics[width=.475\\textwidth]{<#graphic1>}} \
+\\hfill \
+\\subcaptionbox{<#tmpcap2>\\label{fig:<#tmplab2>}}{\\includegraphics[width=.475\\textwidth]{<#graphic2>}} \
+\\vspace{10pt} \
+\\fnote{<#tmpfn>} \
+\\end{figure}>
+
+<#define <#sfig graphic1|graphic2|caption|footnote|width|label|position|lof|cap1|cap2|lab1|lab2>|
+<#ifeq <#caption>|>
+<#defeval tmpcap|\\\\detokenize{<#graphic1> and <#graphic2> }><#else><#defeval tmpcap|<#caption>><#endif>
+<#ifeq <#footnote>|>
+<#defeval tmpfn|><#else><#defeval tmpfn|<#footnote>><#endif>
+<#ifeq <#width>|>
+<#defeval tmpwidth|2.5in><#else><#defeval tmpwidth|<#width>><#endif>
+<#ifeq <#label>|>
+<#defeval tmplab|<#graphic1><#graphic2>><#else><#defeval tmplab|<#label>><#endif>
+<#ifeq <#position>|>
+<#defeval tmppos|h><#else><#defeval tmppos|<#position>><#endif>
+<#ifeq <#lof>|>
+<#defeval tmplof|<#tmpcap>><#else><#defeval tmplof|<#lof>><#endif>
+<#ifeq <#cap1>|>
+<#defeval tmpcap1|\\\\detokenize{<#graphic1>}><#else><#defeval tmpcap1|<#cap1>><#endif>
+<#ifeq <#cap2>|>
+<#defeval tmpcap2|\\\\detokenize{<#graphic2>}><#else><#defeval tmpcap2|<#cap2>><#endif>
+<#ifeq <#lab1>|>
+<#defeval tmplab1|<#graphic1>><#else><#defeval tmplab1|<#lab1>><#endif>
+<#ifeq <#lab2>|>
+<#defeval tmplab2|<#graphic2>><#else><#defeval tmplab2|<#lab2>><#endif>
+\\begin{figure}[<#tmppos>] \
+\\centering \
+\\captionsetup{justification=centering} \
+\\caption{<#tmpcap>} \
+\\label{fig:<#tmplab>} \
+\\begin{subfigure}[t]{.475\\textwidth} \
+  \\centering \
+  \\includegraphics[width=\\textwidth]{<#graphic1>} \
+  \\caption[<#tmplof>]{<#tmpcap1>} \
+  \\label{fig:<#tmplab1>} \
+\\end{subfigure}% \
+\\hfill \
+\\begin{subfigure}[t]{.475\\textwidth} \
+  \\centering \
+  \\includegraphics[width=\\textwidth]{<#graphic2>} \
+  \\caption{<#tmpcap2>} \
+  \\label{fig:<#tmplab2>} \
+\\end{subfigure} \
+\\vspace{10pt} \
+\\fnote{<#tmpfn>} \
+\\end{figure}>
+
+
+<#define refshere|ADD REFERENCES HERE>
+
+<#define newinclude|<#exec cat #1>>
+
+<#define refend|\\clearpage \
+\
+\#\# References \
+\
+\\setlength{\\parindent}{-0.2in} \
+\\setlength{\\leftskip}{0.2in} \
+\\setlength{\\parskip}{8pt} \
+\
+\\vspace*{-0.2in} \
+\\noindent>
+
+<#define refend2|\\clearpage \
+\
+\# References \
+\
+\\setlength{\\parindent}{-0.2in} \
+\\setlength{\\leftskip}{0.2in} \
+\\setlength{\\parskip}{8pt} \
+\\vspace*{-0.2in} \
+\\noindent>
+
+<#define u|\\uline{#1}>
+
+<#define tt|\\texttt{#1}>
+
+<#define twosidebysidefig|\\begin{figure} \
+\\centering \
+\\captionsetup{justification=centering} \
+\\caption{#1} \
+\\begin{subfigure}{.5\\textwidth} \
+  \\centering \
+  \\includegraphics[width=#5]{#2} \
+  %\\caption{A subfigure} \
+  \\label{fig:#2} \
+\\end{subfigure}% \
+\\begin{subfigure}{.5\\textwidth} \
+  \\centering \
+  \\includegraphics[width=#5]{#3} \
+  %\\caption{A subfigure} \
+  \\label{fig:#3} \
+\\end{subfigure} \
+\\vspace{10pt} \
+\\fnote{#4} \
+\\label{fig:test} \
+\\end{figure}>
+
+<#define toc|\\tableofcontents \
+\\listoftables \
+\\listoffigures>
+
+<#define tabfiglist|\\listoftables \
+\\listoffigures>

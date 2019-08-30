@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>status on </title>
+    <link>https://breschke.github.io/tags/status/</link>
+    <description>Recent content in status on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 Jan 2017 11:30:34 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Collins (2000)</title>
+      <link>https://breschke.github.io/note/coll00/</link>
+      <pubDate>Wed, 18 Jan 2017 11:30:34 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/coll00/</guid>
+      <description>Summary of “Situational Stratification: A Micro-Macro Theory of Inequality” by Randall Collins Retrieved through reading @bothhayn10:
+ “Collins’s (2000, pp. 29–33) conception of deference as inherently local and situational points to another predetermined limitation on the Matthew Effect. According to his theory, status accrual is particularly likely to occur in networks of individuals centered on a common base of specialized knowledge. Chances for growth in status are thus constrained by others’ inability to properly appreciate a (local) maven’s worth, and so high-status individuals are often confined to a finite base of focused admirers.</description>
+    </item>
+    
+    <item>
+      <title>Status Spillovers</title>
+      <link>https://breschke.github.io/paper/status-spillovers/</link>
+      <pubDate>Wed, 31 Aug 2016 17:56:29 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/paper/status-spillovers/</guid>
+      <description>When an actor experiences a sudden gain in status — for example, when a scientist wins a Nobel Prize, or a film director wins an Oscar — what does this jump in status do to the fates of the winner’s many ‘neighbors’? Do non-winners bask in the reflected glory of the winner, and therefore rise with her? Or conversely, does competition for attention ensue, attenuating the recognition neighbors otherwise would have received?</description>
+    </item>
+    
+    <item>
+      <title>Jensen, Kim, and Kim (2012)</title>
+      <link>https://breschke.github.io/note/jensen-kim-kim-2012/</link>
+      <pubDate>Mon, 25 Apr 2016 08:59:16 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/jensen-kim-kim-2012/</guid>
+      <description>Overview Reputation is typically defined as an “overall actor-level assessment” (p. 141) but often results in confounding with status, identity, celebrity. Instead, we define reputation as attribute-specific based on prior behavior and embed in social systems.
+Problems with integrative definitions of reputation Vague, poor discrimination from other constructs What seems like a generalized reputation really is based on some attribute anyway (* Still to be explained: why some attribute-specific reputations dominate other attribute-specific reputations—what do audiences anchor on, and why?</description>
+    </item>
+    
+    <item>
+      <title>Bothner, Haynes, Lee, and Smith (2010)</title>
+      <link>https://breschke.github.io/note/bothhayn10/</link>
+      <pubDate>Sun, 27 Dec 2015 23:21:01 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/note/bothhayn10/</guid>
+      <description>Summary When status depends on endorsements, non-stars will eventually attain the status of stars, but when endorsements don’t matter (no spillover effects), then stars monopolize status.
+They distinguish between the Matthew Effect at the micro level (Merton 1968, 57–58) and the macro level (Merton 1968, 62). Micro level: high-status actors get more credit than low-status actors. Macro-level: the cumulative advantage enjoyed by high-status actors.
+I don’t see much distinction between the two: is it that the micro level considers the individual comparison of one scholar to another, and the macro level is the aggregate effect for the high-status actor?</description>
+    </item>
+    
+    <item>
+      <title>paris</title>
+      <link>https://breschke.github.io/project/paris/</link>
+      <pubDate>Fri, 18 Dec 2015 12:04:01 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/project/paris/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

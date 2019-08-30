@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>new venture on </title>
+    <link>https://breschke.github.io/tags/new-venture/</link>
+    <description>Recent content in new venture on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 27 Dec 2015 21:46:56 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/new-venture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dental Diagnostic</title>
+      <link>https://breschke.github.io/idea/dental-diagnostic/</link>
+      <pubDate>Sun, 27 Dec 2015 21:46:56 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/idea/dental-diagnostic/</guid>
+      <description>Maddie lost a tooth this evening. As I was brushing my teeth this evening, I wondered whether she has teeth like mine or more like Cami&#39;s. It seems we should be able to learn a lot about our future teeth by sending in recently lost teeth in for lab work. Perhaps DNA/chromosome testing could happen in the same go.</description>
+    </item>
+    
+  </channel>
+</rss>

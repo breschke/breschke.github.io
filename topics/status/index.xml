@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>status on </title>
+    <link>https://breschke.github.io/topics/status/</link>
+    <description>Recent content in status on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Mar 2016 09:50:51 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/topics/status/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Status Deference</title>
+      <link>https://breschke.github.io/writing/status-deference/</link>
+      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/writing/status-deference/</guid>
+      <description>I met Joel Baum at the Winter Strategy Conference in March 2016. We discussed an extension of the status spillovers paper that would consider the more dynamic nature of status.
+Questions Prompted by the Conference, Irrespective of Data Availability When a status shock arrives, what do neighbors subsequently do? How would the expectations of @rescazoustua16 change with a more dynamic setting? What this is getting at is the fact that in science, status is more cumulative than other contexts: barring an egregious transgression (e.</description>
+    </item>
+    
+  </channel>
+</rss>

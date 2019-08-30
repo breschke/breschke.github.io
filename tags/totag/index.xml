@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>totag on </title>
+    <link>https://breschke.github.io/tags/totag/</link>
+    <description>Recent content in totag on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 25 Aug 2016 21:42:20 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/totag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>starlight</title>
+      <link>https://breschke.github.io/presentation/starlight/</link>
+      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/starlight/</guid>
+      <description>name: inverse layout: true class: center, middle, inverse --- # starlight .footnote[Go directly to [project site](https://github.com/gnab/remark)] --- layout: false # Research question ## When an alter is elevated in status, what does ego do? -- ### The question is typically star-centric -- ### Much is said about what happens to high-status actors after ascension - Performance suffers (Bothner, Kim, and Smith 2012) - Personal crises: ‘Oscar Curse’ (Jensen and Kim 2015) --- .</description>
+    </item>
+    
+    <item>
+      <title>Status Spillovers</title>
+      <link>https://breschke.github.io/presentation/status-spillovers/</link>
+      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/status-spillovers/</guid>
+      <description>name: inverse layout: true class: center, middle, inverse --- # Status Spillovers ### Brian P. Reschke .small[(BYU)] ### Pierre Azoulay .small[(MIT)] ### Toby E. Stuart .small[(UC Berkeley)] --- layout: false # Research question --- class: center, middle .small65.paddingBetweenCols[Descriptive Statistics for HHMI Investigators  MeanStd. Dev.MedianMin.Max.   Year of Appointment  1992.331  5.181  1993  1984  2003   Year of Higest Degree   1980.662  7.</description>
+    </item>
+    
+  </channel>
+</rss>

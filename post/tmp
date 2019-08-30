@@ -1,0 +1,77 @@
+---
+date: 2015-12-22T22:59:13-07:00
+description: ""
+tags:
+- hugo
+- cross-platform
+title: Using hugo
+topics:
+- workflow
+link-citations: true
+abstract: |
+  Initial thoughts on rivalry as a distinct sociological construct. I wrote much of the following in Spring 2011.
+draft: false
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Using hugo</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/Users/brianreschke/.pandoc/marked/kultiad-serif.css">
+</head>
+<body>
+<header>
+<h3 class="date">2015-12-22T22:59:13-07:00</h3>
+
+<h1 class="title">Using hugo</h1>
+
+
+
+</header>
+
+
+<p class="small"><strong>Abstract: </strong><em><p>Initial thoughts on rivalry as a distinct sociological construct. I wrote much of the following in Spring 2011.</p></em></p>
+
+
+
+<h1 id="introduction">Introduction</h1>
+<p><span class="citation">Uzzi (<a href="#ref-uzzi96">1996</a>)</span> makes the embeddedness hypothesis <span class="citation">(Granovetter <a href="#ref-gran85">1985</a>)</span> actionable; his results suggest that the degree to which a firm concentrates its exchange in few or many partners, and the degree to which a firm’s partners do the same, matter to a focal firm’s survival. Whereas the survival returns to ‘first-order’ embedded ties increase monotonically, the relation between partners’ network characteristics and the focal firm’s survival is curvilinear (U-shaped). This is puzzling, since it would seem firms with ‘overly embedded’ direct ties would experience the same problems of myopia and relational intensity as would their ‘overly embedded’ exchange partners. (It would be very interesting if the comparable manufacturer-centric analysis similarly showed monotonically increasing returns to direct embeddedness, and U-shaped returns to indirect (contractor) embeddedness—suggesting that negative effects of myopia/relational intensity are realized only indirectly).</p>
+<p>The idea that embedded ties can become ‘too hot’ is an interesting component of Uzzi’s <span class="citation">(<a href="#ref-uzzi96">1996</a>)</span> contribution, yet it does not figure prominently in his ethnographic review. Rather, this qualitative exploration tended to cast embeddedness in positive-valence terms: “you become friends with these people”, “They’re part of the family” (677); “win-win” (682). Expanding this point reveals a neglected and important class of ‘same-side’ social ties (e.g., relations among producers) that diverge from the heart-warming account Uzzi depicts—rivalry relations. In this response paper, I situate rivalry relations in the overarching sociological agenda of challenging patently atomistic accounts of social structure.</p>
+<p>Firms that vie for the same resources within a defined niche are understood to be competitors; per economic accounts, such actors should distribute the costs of monitoring others fairly uniformly across the roster. Information exchange with such competitors would be minimized. Yet across many domains (including higher education and professional sports), pairs of actors regularly expend significant resources—far beyond what would be economically prescribed—not only monitoring each other, but even in intentionally ‘showing their hand.’ Even when environmental conditions have rendered a different pair as the ‘true’ front-runners in the niche, rivalry relations persist. Why do such relations exist, and what explains their emergence and persistence?</p>
+<p>Rivalries seem to stem from formative founding conditions and exchanges. The actors involved appear to be relatively geographically proximate, and occupy similar cultural positions in the broader environment—this is the ‘role equivalence’ taken up by <span class="citation">Guler, Guillén, and Macpherson (<a href="#ref-guleguil02">2002</a>)</span>. ‘Close finishes’ in early contests would seem to play an important role—if a dominant actor was evident, then there would not seem to be a case for future contests.</p>
+<p>As to how rivalries persist, I can identify a few mechanisms. Status is maintained through recurring contests—reputational capital is as much at stake as economic. More importantly, identity is inherently dependent on maintaining distinctiveness from a cadre of comparable others—firms fixate on rival relations because they enable audiences to attend to firms’ legitimizing and distinguishing features. Lastly, and intriguingly, rivalry relations may operate as an inter-organizational governance structure: rivals want to ‘win’ (at least apparently) outright, and really aren’t about annihilating the other ‘once and for all’. The transaction cost is the social incentive.</p>
+<p>Candidate contexts in which to examine the above questions include the higher education system and professional sports teams. What precipitated the Oxford-Cambridge, Berkeley-Stanford, Boston Red Socks-NY Yankees rivalries as we know them today? Why did comparable dyads—pairs that were somewhat geographically proximate, role-equivalent—not result in entrenched rivalries? In the spirit of <span class="citation">Uzzi (<a href="#ref-uzzi96">1996</a>)</span> and other sociologists <span class="citation">(Negro et al. <a href="#ref-negrhann07">2007</a>)</span>, extensive ethnographic research—such as attending top baseball rivalries—would be warranted. Directions to previous literature on this would be helpful.</p>
+<h2 id="defining-rivalry">Defining Rivalry</h2>
+<h2 id="rivalry-vs.competition">Rivalry vs. competition</h2>
+<h2 id="rivalry-and-structural-equivalencea-network-perspective">Rivalry and structural equivalence—a network perspective</h2>
+<h2 id="what-does-burt-say-on-the-subject">What does Burt say on the subject?</h2>
+<p>Opportunities are allocated per social capital <span class="citation">(Burt <a href="#ref-burt92">1992</a>)</span></p>
+<p></p>
+<h2 id="references">References</h2>
+<p>  </p>
+
+<p></p>
+<div id="refs" class="references">
+<div id="ref-burt92">
+<p>Burt, Ronald S. 1992. “The Social Structure of Competition.” In <em>The Social Structure of Competition</em>, Cambridge, MA: Harvard University Press. Book Section.</p>
+</div>
+<div id="ref-gran85">
+<p>Granovetter, Mark. 1985. “Economic Action and Social Structure: The Problem of Embeddedness.” <em>The American Journal of Sociology</em> 91(3): 481–510.</p>
+</div>
+<div id="ref-guleguil02">
+<p>Guler, Isin, Mauro F Guillén, and John Muir Macpherson. 2002. “Global Competition, Institutions, and the Diffusion of Organizational Practices: The International Spread of ISO 9000 Quality Certificates.” <em>Administrative Science Quarterly</em> 47(2): 207–32.</p>
+</div>
+<div id="ref-negrhann07">
+<p>Negro, Giacomo, Michael T. Hannan, Hayagreeva Rao, and Ming D. Leung. 2007. “No Barrique, No Berlusconi: Collective Identity, Contention, and Authenticity in the Making of Barolo and Barbaresco Wines.” <em>Research paper 1972, Stanford Graduate School of Business</em>.</p>
+</div>
+<div id="ref-uzzi96">
+<p>Uzzi, Brian. 1996. “The Sources and Consequences of Embeddedness for the Economic Performance of Organizations: The Network Effect.” <em>American Sociological Review</em> 61(4): 674–98.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>to do on </title>
+    <link>https://breschke.github.io/tags/to-do/</link>
+    <description>Recent content in to do on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 04 Apr 2016 16:56:24 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/to-do/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>garden task rabbit</title>
+      <link>https://breschke.github.io/idea/garden-task-rabbit/</link>
+      <pubDate>Mon, 04 Apr 2016 16:56:24 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/idea/garden-task-rabbit/</guid>
+      <description>Origin Story In a discussion with Ben Beck in office hours Mon, Apr 4, 2016 3:45 PM, we considered the pain of gardening. He is currently focusing on a smart app to inform gardeners when to plant, water, fertilize, etc.
+Summary An alternate pain hypothesis is that time required to garden is a deep pain. A rather complex solution would be coordinating the labor market for gardening talent.
+Next Directions TO DO: Draft use of this case in the hypothesis building workshop for Seattle.</description>
+    </item>
+    
+    <item>
+      <title>Simmel on Competition</title>
+      <link>https://breschke.github.io/note/simmel-competition/</link>
+      <pubDate>Mon, 04 Apr 2016 14:42:56 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/simmel-competition/</guid>
+      <description>TO DO: Incorporate in statspill  See book here.
+Competition is a subset of conflict.
+“The foremost sociological characteristic of competition is the fact that conflict in it is indirect.”
+“parallel efforts by both parties concerning the same prize”
+S distinguishes between the subjective goal and objective result of competition. The prize competitors seek is in the hands of neither.
+S focuses on competition where the only adversary in is the aim.</description>
+    </item>
+    
+  </channel>
+</rss>

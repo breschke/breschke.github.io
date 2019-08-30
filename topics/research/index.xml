@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on </title>
+    <link>https://breschke.github.io/topics/research/</link>
+    <description>Recent content in Research on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 07 Jun 2016 10:05:58 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/topics/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Starlight: June 6-20, 2016</title>
+      <link>https://breschke.github.io/plan/starlight-2016-06-06/</link>
+      <pubDate>Tue, 07 Jun 2016 10:05:58 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/plan/starlight-2016-06-06/</guid>
+      <description>We are on the hook to submit an abstract to NEC this Friday. I have a call with Joel on Thursday. Tasks take roughly the following priority:
+ Percentile rank for various career variables Assess degree of left-censoring in career histories Narrow sample to star-lit alters only Assess how this addresses extreme values. If necessary, drop top 0.1 percentile. Descriptive statistics for stocks that ever have a star Control observation for each star-lit alter Brokerage stats  Trello</description>
+    </item>
+    
+    <item>
+      <title>Starlight: June 6-20, 2016</title>
+      <link>https://breschke.github.io/plan/starlight-2016-06-06/</link>
+      <pubDate>Tue, 07 Jun 2016 10:05:58 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/plan/starlight-2016-06-06/</guid>
+      <description>We are on the hook to submit an abstract to NEC this Friday. I have a call with Joel on Thursday. Tasks take roughly the following priority:
+ Percentile rank for various career variables Assess degree of left-censoring in career histories Narrow sample to star-lit alters only Assess how this addresses extreme values. If necessary, drop top 0.1 percentile. Descriptive statistics for stocks that ever have a star Control observation for each star-lit alter Brokerage stats  Trello</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+---
+markup: mmark
+date: 2016-02-20T12:46:36-07:00
+description: null
+tags:
+- idea
+- gluten-free
+- customer validation
+title: gluten sensitivity
+topics:
+- Idea Log
+---
+
+## Origin Story
+
+I was conducting customer validation in the afternoon break for 490R Sat, Feb 20, 2016 12:47. My focus this month is on people experiencing gluten intolerance (Cami).
+
+## Summary
+
+ [The Gluten Free Agency](http://thegluten-freeagency.com/gluten-free-market-trends/) alerted me to the fact that there is a sizable subset of people who experience gluten intolerance and still eat some gluten: 12 million of 40 million estimated consumers in the gluten-free market. The market is growing rapidly: \$10.5bn in 2013 with expected 48% annual growth rate (Mintel). (Compare with Packaged Facts' estimate: \$4.2 bn 2012 but similar estimated growth rate).
+
+ Is there a systematic zone of gluten tolerability that could be better served? Hypotheses:
+
+ * `$H_0$:` Some people experiencing gluten intolerance can still eat gluten if it is regulated (feasibility). Call these 'intoleaters'.
+      * Is it about amount eaten in a given meal (initial concentration) or within a certain time period?
+      * Is it certain types of gluten?
+      * Can the 'safe zone' be identified systematically?
+ * `$H_0$:` Intoleaters want to track the amount of gluten they have eaten in a given period in order to consume more gluten.
+
+### Motivations for eating gluten-free
+
+(Probably not a representative sample.)
+
+ {{< figure src="http://www.foodnavigator-usa.com/var/plain_site/storage/images/media/images/mintel-gluten-free/8777191-1-eng-GB/Mintel-gluten-free_large.jpg" title:"Mintel Survey"}}
+
+## Next Directions
+* Read [here](http://www.foodnavigator-usa.com/Markets/What-s-the-size-of-the-US-gluten-free-prize-490m-5bn-or-10bn) and other pages on *foodnavigator*.

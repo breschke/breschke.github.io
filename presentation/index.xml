@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on </title>
+    <link>https://breschke.github.io/presentation/</link>
+    <description>Recent content in Presentations on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 06 Sep 2017 12:43:08 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Innovation and Entrepreneurship Course Slides</title>
+      <link>https://breschke.github.io/presentation/course/</link>
+      <pubDate>Wed, 06 Sep 2017 12:43:08 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/course/</guid>
+      <description>Course Introduction</description>
+    </item>
+    
+    <item>
+      <title>starlight</title>
+      <link>https://breschke.github.io/presentation/starlight/</link>
+      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/starlight/</guid>
+      <description>name: inverse layout: true class: center, middle, inverse --- # starlight .footnote[Go directly to [project site](https://github.com/gnab/remark)] --- layout: false # Research question ## When an alter is elevated in status, what does ego do? -- ### The question is typically star-centric -- ### Much is said about what happens to high-status actors after ascension - Performance suffers (Bothner, Kim, and Smith 2012) - Personal crises: ‘Oscar Curse’ (Jensen and Kim 2015) --- .</description>
+    </item>
+    
+    <item>
+      <title>Status Spillovers</title>
+      <link>https://breschke.github.io/presentation/status-spillovers/</link>
+      <pubDate>Thu, 25 Aug 2016 21:42:20 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/status-spillovers/</guid>
+      <description>name: inverse layout: true class: center, middle, inverse --- # Status Spillovers ### Brian P. Reschke .small[(BYU)] ### Pierre Azoulay .small[(MIT)] ### Toby E. Stuart .small[(UC Berkeley)] --- layout: false # Research question --- class: center, middle .small65.paddingBetweenCols[Descriptive Statistics for HHMI Investigators  MeanStd. Dev.MedianMin.Max.   Year of Appointment  1992.331  5.181  1993  1984  2003   Year of Higest Degree   1980.662  7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/aux/b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/aux/b/</guid>
+      <description>Results Dependent variable:  ratinghigh.rating OLSprobit (1)(2)(3) complaints0.692***0.682*** (0.149)(0.129)  privileges-0.104-0.103 (0.135)(0.129)  learning0.2490.238*0.164*** (0.160)(0.139)(0.053)  raises-0.033 (0.202)  critical0.015-0.001 (0.147)(0.044)  advance-0.062 (0.042)  Constant11.01111.258-7.476** (11.704)(7.318)(3.570)  Observations303030 R20.7150.715 Adjusted R20.6560.682 Log Likelihood-9.087 Akaike Inf. Crit.26.175 Residual Std. Error7.139 (df = 24)6.863 (df = 26) F Statistic12.063*** (df = 5; 24)21.743*** (df = 3; 26) Note:*p**p***p  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/aux/deschhmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/aux/deschhmi/</guid>
+      <description>Descriptive Statistics for HHMI Investigators  MeanStd. Dev.MedianMin.Max.   Year of Appointment  1992.331  5.181  1993  1984  2003   Year of Higest Degree   1980.662  7.571  1981  1956  1998     Note:*p**p***p  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck00/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck00/</guid>
+      <description>Course Introduction  document.write(&#39;&#39;)    # Innovation and Entrepreneurship ### MBA 670 Marriott School of Business Brian P. Reschke Fall 2017  --- -- *** ## Course Introduction *** speaker notes FTW! could this be any simpler?
+## Learning Outcomes 1. Generate creative new ideas 1. Understand customers and competitive contexts 1. Formulate and prioritize hypotheses 1. Design and create elegant solutions 1. Validate entrepreneurial opportunities *** ## Individual Assignments *** *** ## Idea Log ***  “If you want to have good ideas you must have many ideas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck00_470/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck00_470/</guid>
+      <description>Course Introduction  document.write(&#39;&#39;)    # Entrepreneurial Innovation ### BusM 470 Marriott School of Business Brian P. Reschke Fall 2017  --- -- *** ## Course Introduction *** speaker notes FTW! could this be any simpler?
+## Learning Outcomes 1. Generate creative new ideas 1. Understand customers and competitive contexts 1. Formulate and prioritize hypotheses 1. Design and create elegant solutions 1. Validate entrepreneurial opportunities *** ## Individual Assignments *** *** ## Idea Log ***  “If you want to have good ideas you must have many ideas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck01/</guid>
+      <description>R&amp;R  document.write(&#39;&#39;)    # R&amp;R ### Innovation and Entrepreneurship ### MBA 670 Marriott School of Business Brian P. Reschke Fall 2017 ## A perspective on entrepreneurship  Entrepreneurship is the relentless pursuit of opportunity without regard to resources currently controlled.  &amp;mdash;Howard Stevenson ## R&amp;R Case * Application of Porter&#39;s Five Forces * Illustration of &#39;Industry Immersion&#39; approach to entrepreneurship  Learning Outcome: Understand customers and competitive contexts ## R&amp;R Case  &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck02/</guid>
+      <description>Creativity  document.write(&#39;&#39;)    # Creativity ### Innovation and Entrepreneurship ### MBA 670 Marriott School of Business Brian P. Reschke Fall 2017 ## Review: R&amp;R Case * Application of Porter&#39;s Five Forces * Illustration of *&#39;Industry Immersion&#39;* approach to entrepreneurship * Distinctions: * Customer vs. User * Make vs. Buy (Network) * Product vs. Business  Learning Outcome: Understand customers and competitive contexts  ## R&amp;R Case  &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck03470/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck03470/</guid>
+      <description>Status Quo  document.write(&#39;&#39;)    # Understanding and Challenging the Status Quo ### Entrepreneurial Innovation ### Bus M 470 Marriott School of Business Brian P. Reschke Fall 2017 ## Course Progress To-Date 1. Introduction to Three Arenas * Desirability, Feasibility, Viability 1. `Industry Immersion` Approach to Entrepreneurship * Bob Reiss and R&amp;R 1. Introduction to `Domain Search` and Creativity * Piero Presentation * Bolster Creative Confidence 1. `Divergence-Convergence`, Team Formation ## Up-and-Coming 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/deck03670/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/deck03670/</guid>
+      <description>Status Quo  document.write(&#39;&#39;)    # Understanding and Challenging the Status Quo ### Innovation and Entrepreneurship ### MBA 670 Marriott School of Business Brian P. Reschke Fall 2017 ## Course Progress To-Date 1. Introduction to Three Arenas * Desirability, Feasibility, Viability 1. `Industry Immersion` Approach to Entrepreneurship * Bob Reiss and R&amp;R 1. Introduction to `Domain Search` and Creativity * Piero Presentation * Bolster Creative Confidence 1. `Divergence-Convergence`, Team Formation ## Up-and-Coming 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/recept-plots1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/recept-plots1/</guid>
+      <description> Death by Review  document.write(&#39;&#39;)    # Network Constraint # Betweenness Centrality # Extroversion # Self-Monitoring # Receptivity      function extend() { var target = {}; for (var i = 0; i  Reveal.initialize(options);     $(function(){ $(&#34;#includedContent&#34;).load(&#34;images/table1.html&#34;); });    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/recept-plots2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/recept-plots2/</guid>
+      <description> Death by Review  document.write(&#39;&#39;)    # Network Constraint # Betweenness Centrality # Extroversion # Self-Monitoring # Receptivity      function extend() { var target = {}; for (var i = 0; i  Reveal.initialize(options);     $(function(){ $(&#34;#includedContent&#34;).load(&#34;images/table1.html&#34;); });    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://breschke.github.io/presentation/status-spillovers-1-21-23-34-37/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://breschke.github.io/presentation/status-spillovers-1-21-23-34-37/</guid>
+      <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
+    </item>
+    
+  </channel>
+</rss>

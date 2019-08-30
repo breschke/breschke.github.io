@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>questions on </title>
+    <link>https://breschke.github.io/tags/questions/</link>
+    <description>Recent content in questions on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 04 May 2017 09:25:33 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/tags/questions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Review: Evans and Jovanovic (1989) An estimated model of entrepreneurial choice under liquidity constraints</title>
+      <link>https://breschke.github.io/note/evanjova89/</link>
+      <pubDate>Thu, 04 May 2017 09:25:33 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/note/evanjova89/</guid>
+      <description>RQ “Do liquidity constraints hinder people from starting businesses?” (Evans and Jovanovic 1989, 808).
+Situation Knight (1921) argues bearing risk is fundamental to entrepreneurship, while Schumpeter (1934) argues entrepreneurs identify arbitrage opportunities while capitalists bear the risk.1
+Questions  Difference between moral hazard and adverse selection? What is the current role of the U.S. Small Business Administration? How would it be affected by the current (Thu, May 4, 2017 9:28) administration’s proposed budget?</description>
+    </item>
+    
+  </channel>
+</rss>

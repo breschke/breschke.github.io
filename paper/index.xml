@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Papers on </title>
+    <link>https://breschke.github.io/paper/</link>
+    <description>Recent content in Papers on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 31 Aug 2016 17:56:29 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Status Spillovers</title>
+      <link>https://breschke.github.io/paper/status-spillovers/</link>
+      <pubDate>Wed, 31 Aug 2016 17:56:29 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/paper/status-spillovers/</guid>
+      <description>When an actor experiences a sudden gain in status — for example, when a scientist wins a Nobel Prize, or a film director wins an Oscar — what does this jump in status do to the fates of the winner’s many ‘neighbors’? Do non-winners bask in the reflected glory of the winner, and therefore rise with her? Or conversely, does competition for attention ensue, attenuating the recognition neighbors otherwise would have received?</description>
+    </item>
+    
+  </channel>
+</rss>

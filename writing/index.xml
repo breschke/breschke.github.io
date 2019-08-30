@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writings on </title>
+    <link>https://breschke.github.io/writing/</link>
+    <description>Recent content in Writings on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Mar 2016 09:50:51 -0600</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Status Deference</title>
+      <link>https://breschke.github.io/writing/status-deference/</link>
+      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/writing/status-deference/</guid>
+      <description>I met Joel Baum at the Winter Strategy Conference in March 2016. We discussed an extension of the status spillovers paper that would consider the more dynamic nature of status.
+Questions Prompted by the Conference, Irrespective of Data Availability When a status shock arrives, what do neighbors subsequently do? How would the expectations of @rescazoustua16 change with a more dynamic setting? What this is getting at is the fact that in science, status is more cumulative than other contexts: barring an egregious transgression (e.</description>
+    </item>
+    
+    <item>
+      <title>A Sociology of Rivalry</title>
+      <link>https://breschke.github.io/writing/rivalry/</link>
+      <pubDate>Mon, 28 Dec 2015 00:31:53 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/writing/rivalry/</guid>
+      <description>Abstract: Initial thoughts on rivalry as a distinct sociological construct. I wrote much of the following in Spring 2011.
+Introduction Uzzi (1996) makes the embeddedness hypothesis (Granovetter 1985) actionable; his results suggest that the degree to which a firm concentrates its exchange in few or many partners, and the degree to which a firm’s partners do the same, matter to a focal firm’s survival. Whereas the survival returns to ‘first-order’ embedded ties increase monotonically, the relation between partners’ network characteristics and the focal firm’s survival is curvilinear (U-shaped).</description>
+    </item>
+    
+    <item>
+      <title>Status Spillovers</title>
+      <link>https://breschke.github.io/writing/status-spillovers/</link>
+      <pubDate>Fri, 18 Dec 2015 12:17:54 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/writing/status-spillovers/</guid>
+      <description>When an actor experiences a sudden gain in status — for example, when a scientist wins a Nobel Prize, or a film director wins an Oscar — what does this jump in status do to the fates of the winner’s many ‘neighbors’? Do non-winners bask in the reflected glory of the winner, and therefore rise with her? Or conversely, does competition for attention ensue, attenuating the recognition neighbors otherwise would have received?</description>
+    </item>
+    
+  </channel>
+</rss>

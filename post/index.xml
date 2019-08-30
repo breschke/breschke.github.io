@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>https://breschke.github.io/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 22 Dec 2015 22:59:13 -0700</lastBuildDate>
+    
+	<atom:link href="https://breschke.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards a Sociology of Rivalry</title>
+      <link>https://breschke.github.io/post/rivalry-soc/</link>
+      <pubDate>Tue, 22 Dec 2015 22:59:13 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/post/rivalry-soc/</guid>
+      <description>Towards a Sociology of Rivalry code{white-space: pre;}      2015-12-22T22:59:13-07:00 Towards a Sociology of Rivalry  Abstract: Initial thoughts on rivalry as a distinct sociological construct. I wrote much of the following in Spring 2011.
+
+Introduction Uzzi (1996) makes the embeddedness hypothesis (Granovetter 1985) actionable; his results suggest that the degree to which a firm concentrates its exchange in few or many partners, and the degree to which a firm’s partners do the same, matter to a focal firm’s survival.</description>
+    </item>
+    
+  </channel>
+</rss>
