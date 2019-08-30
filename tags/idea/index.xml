@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 02 Oct 2018 20:38:21 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 03:21:57 -0600</lastBuildDate>
     
 	<atom:link href="https://breschke.github.io/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fri, Aug 30, 2019 3:21</title>
+      <link>https://breschke.github.io/idea/abstractionexercise/</link>
+      <pubDate>Fri, 30 Aug 2019 03:21:57 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/idea/abstractionexercise/</guid>
+      <description>Origin Story During dinner last night, I gave the family the following scenario:
+ &amp;ldquo;A local doughnut shop owner has promised you $25 if you can come up with a successful, new kind of doughnut. What do you propose?&amp;rdquo;
+ Maddie said a banana split doughnut. Cami said a German pancake doughnut, and a snickerdoodle doughnut.
+I realized that we could generate many more doughnut ideas if we abstracted each idea to a concept, then generated more ideas out of that concept.</description>
+    </item>
     
     <item>
       <title></title>
