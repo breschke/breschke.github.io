@@ -915,7 +915,10 @@ Part 2: Ember.js
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://breschke.github.io/presentation/lecture6mod/</guid>
-      <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
+      <description>8470-Lecture-6-emberjs: Slides  Introduction to Ember and handlebars   Secure Web Application Development  Dr. Hale
+University of Nebraska at Omaha
+CYBR 8470 - Lecture 6
+ become a javascript Today: Ember.JS and Handlebars  The valuation of multiple audience engagement as bids for brokerage   Denied tenure at first academic job  Denied admission to National Academy of Sciences in US     ‘‘Carl Sagan Effect’ in Science  Peer: “If he had not done television, he probably would be in the academy.</description>
     </item>
     
     <item>
@@ -942,12 +945,7 @@ Part 2: Ember.js
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://breschke.github.io/presentation/starburn-aom-08-04/</guid>
-      <description>8470-Lecture-6-emberjs: Slides  Introduction to Ember and handlebars   Secure Web Application Development  Dr. Hale
-University of Nebraska at Omaha
-CYBR 8470 - Lecture 6
- become a javascript Today: Ember.JS and Handlebars  Part 1: Client-side App Frameworks
-Part 2: Ember.js
- What is Ember.js? Where does it sit in the server stack? Ember bindings (HEAVEN) Handlebars Syntax Integrating 3rd Party jQuery Libraries Using Ember tools Integrating with a server-side API  Part1: Client-side Apps   Why clientside App Frameworks?</description>
+      <description>AOM 2019 - Guru .reveal .paddingBetweenCols td { padding: 0 15px 0 15px; } .reveal .inverse2 { background: #000000; color: #ffffff; text-shadow: 0 0 20px #333; } .reveal .inverse2 h1, .reveal .inverse2 h2, .reveal .inverse2 h3 { color: #ffffff; line-height: 0.8em; } .reveal .rtable td { border: 1px solid black; padding: 0 15px 0 15px; text-align: center; } .reveal sup { vertical-align: middle; font-size: 0.7em; } .reveal tr:last-child { font-size: .</description>
     </item>
     
   </channel>
