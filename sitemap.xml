@@ -509,13 +509,13 @@
   </url>
   
   <url>
-    <loc>https://breschke.github.io/tags/development/</loc>
+    <loc>https://breschke.github.io/topics/development/</loc>
     <lastmod>2017-04-25T14:55:03-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://breschke.github.io/topics/development/</loc>
+    <loc>https://breschke.github.io/tags/development/</loc>
     <lastmod>2017-04-25T14:55:03-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -569,14 +569,14 @@
   </url>
   
   <url>
-    <loc>https://breschke.github.io/tags/idea/</loc>
-    <lastmod>2019-09-03T05:04:07-06:00</lastmod>
+    <loc>https://breschke.github.io/topics/idea/</loc>
+    <lastmod>2015-12-27T21:46:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://breschke.github.io/topics/idea/</loc>
-    <lastmod>2015-12-27T21:46:56-07:00</lastmod>
+    <loc>https://breschke.github.io/tags/idea/</loc>
+    <lastmod>2019-09-03T05:04:07-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -611,14 +611,14 @@
   </url>
   
   <url>
-    <loc>https://breschke.github.io/tags/mutual-forbearance/</loc>
-    <lastmod>2016-04-20T08:36:08-06:00</lastmod>
+    <loc>https://breschke.github.io/topics/mutual-forbearance/</loc>
+    <lastmod>2016-03-22T09:50:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://breschke.github.io/topics/mutual-forbearance/</loc>
-    <lastmod>2016-03-22T09:50:51-06:00</lastmod>
+    <loc>https://breschke.github.io/tags/mutual-forbearance/</loc>
+    <lastmod>2016-04-20T08:36:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -779,26 +779,26 @@
   </url>
   
   <url>
-    <loc>https://breschke.github.io/tags/statistics/</loc>
-    <lastmod>2015-12-18T13:14:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://breschke.github.io/topics/statistics/</loc>
     <lastmod>2015-12-18T13:14:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://breschke.github.io/tags/status/</loc>
-    <lastmod>2017-01-18T11:30:34-06:00</lastmod>
+    <loc>https://breschke.github.io/tags/statistics/</loc>
+    <lastmod>2015-12-18T13:14:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://breschke.github.io/topics/status/</loc>
     <lastmod>2016-03-22T09:50:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://breschke.github.io/tags/status/</loc>
+    <lastmod>2017-01-18T11:30:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
