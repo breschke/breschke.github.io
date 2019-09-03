@@ -777,6 +777,11 @@
   </url>
   
   <url>
+    <loc>https://breschke.github.io/presentation/ent-inv/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://breschke.github.io/presentation/entinv-final-deck/</loc>
     <priority>0</priority>
   </url>
