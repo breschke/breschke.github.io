@@ -7,80 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, Brian P. Reschke; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 30 Aug 2019 03:21:57 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 06 Sep 2017 11:10:30 -0600</lastBuildDate>
     
 	<atom:link href="https://breschke.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>idea log</title>
-      <link>https://breschke.github.io/topics/idea-log/</link>
-      <pubDate>Fri, 30 Aug 2019 03:21:57 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/idea-log/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teaching</title>
-      <link>https://breschke.github.io/topics/teaching/</link>
-      <pubDate>Mon, 11 Sep 2017 20:38:21 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/teaching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sociology</title>
-      <link>https://breschke.github.io/topics/sociology/</link>
-      <pubDate>Fri, 08 Sep 2017 11:40:52 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/sociology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Presentation</title>
-      <link>https://breschke.github.io/topics/presentation/</link>
-      <pubDate>Wed, 06 Sep 2017 12:43:08 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/presentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>creativity</title>
+      <title>Creativity</title>
       <link>https://breschke.github.io/topics/creativity/</link>
       <pubDate>Wed, 06 Sep 2017 11:10:30 -0600</pubDate>
       
       <guid>https://breschke.github.io/topics/creativity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>professional development</title>
-      <link>https://breschke.github.io/topics/professional-development/</link>
-      <pubDate>Wed, 06 Sep 2017 11:10:30 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/professional-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning</title>
-      <link>https://breschke.github.io/topics/planning/</link>
-      <pubDate>Tue, 22 Aug 2017 01:20:12 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrepreneurship</title>
-      <link>https://breschke.github.io/topics/entrepreneurship/</link>
-      <pubDate>Thu, 04 May 2017 09:25:33 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/entrepreneurship/</guid>
       <description></description>
     </item>
     
@@ -94,38 +31,20 @@
     </item>
     
     <item>
-      <title>golang</title>
+      <title>Entrepreneurship</title>
+      <link>https://breschke.github.io/topics/entrepreneurship/</link>
+      <pubDate>Thu, 04 May 2017 09:25:33 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
       <link>https://breschke.github.io/topics/golang/</link>
       <pubDate>Tue, 25 Apr 2017 14:55:03 -0600</pubDate>
       
       <guid>https://breschke.github.io/topics/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://breschke.github.io/topics/research/</link>
-      <pubDate>Tue, 07 Jun 2016 10:05:58 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mutual forbearance</title>
-      <link>https://breschke.github.io/topics/mutual-forbearance/</link>
-      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/mutual-forbearance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>status</title>
-      <link>https://breschke.github.io/topics/status/</link>
-      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
-      
-      <guid>https://breschke.github.io/topics/status/</guid>
       <description></description>
     </item>
     
@@ -139,11 +58,38 @@
     </item>
     
     <item>
-      <title>Political Science</title>
-      <link>https://breschke.github.io/topics/political-science/</link>
-      <pubDate>Tue, 08 Mar 2016 12:19:37 -0700</pubDate>
+      <title>Idea</title>
+      <link>https://breschke.github.io/topics/idea/</link>
+      <pubDate>Sun, 27 Dec 2015 21:46:56 -0700</pubDate>
       
-      <guid>https://breschke.github.io/topics/political-science/</guid>
+      <guid>https://breschke.github.io/topics/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Idea Log</title>
+      <link>https://breschke.github.io/topics/idea-log/</link>
+      <pubDate>Tue, 03 Sep 2019 05:04:07 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/idea-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutual Forbearance</title>
+      <link>https://breschke.github.io/topics/mutual-forbearance/</link>
+      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/mutual-forbearance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://breschke.github.io/topics/planning/</link>
+      <pubDate>Tue, 22 Aug 2017 01:20:12 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/planning/</guid>
       <description></description>
     </item>
     
@@ -157,29 +103,56 @@
     </item>
     
     <item>
-      <title>writing</title>
-      <link>https://breschke.github.io/topics/writing/</link>
-      <pubDate>Mon, 28 Dec 2015 00:31:53 -0700</pubDate>
+      <title>Political Science</title>
+      <link>https://breschke.github.io/topics/political-science/</link>
+      <pubDate>Tue, 08 Mar 2016 12:19:37 -0700</pubDate>
       
-      <guid>https://breschke.github.io/topics/writing/</guid>
+      <guid>https://breschke.github.io/topics/political-science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Idea</title>
-      <link>https://breschke.github.io/topics/idea/</link>
-      <pubDate>Sun, 27 Dec 2015 21:46:56 -0700</pubDate>
+      <title>Presentation</title>
+      <link>https://breschke.github.io/topics/presentation/</link>
+      <pubDate>Wed, 06 Sep 2017 12:43:08 -0600</pubDate>
       
-      <guid>https://breschke.github.io/topics/idea/</guid>
+      <guid>https://breschke.github.io/topics/presentation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>workflow</title>
-      <link>https://breschke.github.io/topics/workflow/</link>
-      <pubDate>Tue, 22 Dec 2015 22:59:13 -0700</pubDate>
+      <title>Professional Development</title>
+      <link>https://breschke.github.io/topics/professional-development/</link>
+      <pubDate>Wed, 06 Sep 2017 11:10:30 -0600</pubDate>
       
-      <guid>https://breschke.github.io/topics/workflow/</guid>
+      <guid>https://breschke.github.io/topics/professional-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://breschke.github.io/topics/research/</link>
+      <pubDate>Tue, 07 Jun 2016 10:05:58 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisions</title>
+      <link>https://breschke.github.io/topics/revisions/</link>
+      <pubDate>Fri, 18 Dec 2015 12:04:01 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/topics/revisions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sociology</title>
+      <link>https://breschke.github.io/topics/sociology/</link>
+      <pubDate>Fri, 08 Sep 2017 11:40:52 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/sociology/</guid>
       <description></description>
     </item>
     
@@ -193,11 +166,38 @@
     </item>
     
     <item>
-      <title>Revisions</title>
-      <link>https://breschke.github.io/topics/revisions/</link>
-      <pubDate>Fri, 18 Dec 2015 12:04:01 -0700</pubDate>
+      <title>Status</title>
+      <link>https://breschke.github.io/topics/status/</link>
+      <pubDate>Tue, 22 Mar 2016 09:50:51 -0600</pubDate>
       
-      <guid>https://breschke.github.io/topics/revisions/</guid>
+      <guid>https://breschke.github.io/topics/status/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://breschke.github.io/topics/teaching/</link>
+      <pubDate>Mon, 11 Sep 2017 20:38:21 -0600</pubDate>
+      
+      <guid>https://breschke.github.io/topics/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://breschke.github.io/topics/workflow/</link>
+      <pubDate>Tue, 22 Dec 2015 22:59:13 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/topics/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://breschke.github.io/topics/writing/</link>
+      <pubDate>Mon, 28 Dec 2015 00:31:53 -0700</pubDate>
+      
+      <guid>https://breschke.github.io/topics/writing/</guid>
       <description></description>
     </item>
     
